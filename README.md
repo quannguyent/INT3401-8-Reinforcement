@@ -21,13 +21,13 @@ Thay đổi các tham số answerDiscount, answerNoise, answerLivingReward.
 Kết quả ở file analysis.py.
 
 # Q4: Q-Learning
-Viết Q-learning agent, nó thực hiện rất ít việc xây dựng môi trường từ trước, mà thay vào đó học bằng cách thử và sai từ các tương tác với môi trường thông qua phương pháp cập nhật (state, action, nextState, reward)
+Viết Q-learning agent, nó thực hiện rất ít việc xây dựng môi trường từ trước, mà thay vào đó học bằng cách thử và sai từ các tương tác với môi trường thông qua phương pháp cập nhật (state, action, nextState, reward).
 getQValue(state, action) trả về giá trị Qvalue.
-computeValueFromQValues() Tính toán giá trị lớn nhất của Qvalue
-computeActionFromQValues() Tính toán hành động tốt để thực hiện trong trạng thái
+computeValueFromQValues() Tính toán giá trị lớn nhất của Qvalue.
+computeActionFromQValues() Tính toán hành động tốt để thực hiện trong trạng thái.
 
 # Q5: Epsilon Greedy
-Epsilon-greedy giúp nó chọn những hành động ngẫu nhiên trong một khoảng thời gian epsilon hoặc tuân theo các giá trị Q tốt nhất hiện tại
+Epsilon-greedy giúp nó chọn những hành động ngẫu nhiên trong một khoảng thời gian epsilon hoặc tuân theo các giá trị Q tốt nhất hiện tại.
 Sử dụng hàm flipcoin để chọn ngẫu nhiên hành động hoặc sẽ sử dụng Q tốt nhất. Và viết hàm cập nhật Q-value cho trạng thái và hành động.
 
 # Q6: Bridge Crossing Revisited
