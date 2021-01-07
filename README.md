@@ -1,4 +1,9 @@
 # INT3401-8-Reinforcement
+Các file thay đổi: 
+valueIterationAgents.py	
+qlearningAgents.py
+analysis.py
+
 Q1: Value Iteration
 Tính toán các ước lượng k-step của các giá trị tối ưu Kv. 
 Tìm các trạng thái, khả năng cho các hành động tiếp theo và phần thường cho các hành động đó.
